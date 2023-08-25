@@ -1,5 +1,9 @@
-Release notes - inxware-Lucid - 2.1.4
-Bug
+inxware Lucid Beta Releases
+===========================
+
+Version 2.1.4
+-------------
+###Bug
 II-491 Using a used tag the message bos isn't right if it has already been used.
 
 II-493 Crash on pressing the "Up" arrow to open the parent workspace
@@ -18,7 +22,7 @@ II-504 If a project with a comment block without having the CDF is opened, it ca
 
 II-510 State machine crashes due to 'never ending recursion' while state condition looks for its FSM
 
-Sub-task
+###Sub-task
 II-511 Get non-UI/GTK build and run using visual studio
 
 II-513 Get MQTT working using visual studio
