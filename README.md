@@ -1,30 +1,41 @@
-# inxware-dev-tools
-Binary releases of inxware development tools for programming eRT enabled devices
+# Release notes - inxware-Lucid - 2.1.5
 
-<ins>Release Version 2.1.4 Release notes</ins>
+### Bug
 
-Bug
-II-491 Using a used tag the message bos isn't right if it has already been used.
+[II-16](https://inxiot.atlassian.net/browse/II-16) Saved project doesn't upload updated SODL when launching debugger.
 
-II-493 Crash on pressing the "Up" arrow to open the parent workspace
+[II-263](https://inxiot.atlassian.net/browse/II-263) ERT1- Port Function IDs need to be increased by 1 in eRT c source for all Components
 
-II-495 After a cut-paste, there is a phantom selection on the next click
+[II-264](https://inxiot.atlassian.net/browse/II-264) ERT1 - Fix eRT kernel parsing of the binary files
 
-II-496 Crash on adding ports
+[II-375](https://inxiot.atlassian.net/browse/II-375) Debugging doesn't seem to work when doing the restart debugging button though the screen goes into debug mode.
 
-II-498 Wired auto-scrolling when dragging objects or connecting ports in zoom-out project
+[II-479](https://inxiot.atlassian.net/browse/II-479) Restart with Debug - doesn't acutally tell eRT to start the debugger.
 
-II-499 Crash when Dragging a line with mouse and using track pad in linux to scroll.
+### Task
 
-II-500 Fix the names, port spacing of FBs
+[II-141](https://inxiot.atlassian.net/browse/II-141) Add GPIO display on windows & Linux eRTbuilds.
 
-II-504 If a project with a comment block without having the CDF is opened, it causes a crash.
+[II-372](https://inxiot.atlassian.net/browse/II-372) DEBUGGING: The bug button \(attach to process mode debug\) should be disabled if the SODL build version \(or hash\) has changed after a ping.
 
-II-510 State machine crashes due to 'never ending recursion' while state condition looks for its FSM
+[II-477](https://inxiot.atlassian.net/browse/II-477) Debugger: Review document
 
-Sub-task
-II-511 Get non-UI/GTK build and run using visual studio
+### Sub-task
 
-II-513 Get MQTT working using visual studio
+[II-527](https://inxiot.atlassian.net/browse/II-527) Refactor parser code - split it into functions that do a dedicated task 
 
-Full Changelog: https://github.com/inxware/inxware-dev-tools/commits/v-2.1.4
+[II-528](https://inxiot.atlassian.net/browse/II-528) Add 'end of file' keyword to SODL by tools
+
+[II-529](https://inxiot.atlassian.net/browse/II-529) For eart1 have means to read BEGIN to identify hash
+
+[II-530](https://inxiot.atlassian.net/browse/II-530) Generate eRT1 header in tools
+
+[II-531](https://inxiot.atlassian.net/browse/II-531) Tools should be saving SODL for all eRT versions
+
+[II-532](https://inxiot.atlassian.net/browse/II-532) Tools should be checking what eRT target is currently connected
+
+[II-533](https://inxiot.atlassian.net/browse/II-533) Tools should be using SODL playload hash sent from eRT1 to check if app has been modifed
+
+[II-534](https://inxiot.atlassian.net/browse/II-534) Merge eRT-Kernel work to master and delete branch
+
+[II-535](https://inxiot.atlassian.net/browse/II-535) Merge eRT1 tools work to master and delete branch
