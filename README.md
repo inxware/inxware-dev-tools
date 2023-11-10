@@ -1,99 +1,69 @@
-# Release notes - inxware-Lucid - 2.1.6
+# Release notes - inxware-Lucid - 2.1.7
 
 ### Bug
 
-[II-516](https://inxiot.atlassian.net/browse/II-516) Tools Installer: When you run eRT from the installed tools, it fails to launch
+[II-277](https://inxiot.atlassian.net/browse/II-277) Tags are sometimes created in a wrong position, which gets corrected when FBs are moved
 
-[II-538](https://inxiot.atlassian.net/browse/II-538) GPIO Simulator widgets are too large and overlaps all normal UI widgets.
+[II-331](https://inxiot.atlassian.net/browse/II-331) The EHS is unable to get the IP Address of WiFi network devices
+
+[II-427](https://inxiot.atlassian.net/browse/II-427) The hit boxes of the lines and FBs don't seem to line up with what's rendered
+
+[II-492](https://inxiot.atlassian.net/browse/II-492) eRT -Issue to solve: scanf fails if some outputs are not connected. e.g. if out a is not connected \(cos we want to ignore it\) then result 2 doesn't happen either.
+
+[II-502](https://inxiot.atlassian.net/browse/II-502) Pathspec for tutorials directory required
+
+[II-525](https://inxiot.atlassian.net/browse/II-525) Sometimes there is a small offset on mouse and screen \(seen on Windows with external HD monitor\).
 
 [II-544](https://inxiot.atlassian.net/browse/II-544) Crash running the home app with LVGL build
 
-[II-548](https://inxiot.atlassian.net/browse/II-548) iAB and iGB don't seem to be backwards compatible when it comes to gui files
+[II-547](https://inxiot.atlassian.net/browse/II-547) Tools show all sort of errors e.g. nsl, when opening tutorial app e.g. hello world
 
-[II-567](https://inxiot.atlassian.net/browse/II-567) blink timer is sometimes causing crashes
+[II-590](https://inxiot.atlassian.net/browse/II-590) Zoom in-out can create a mouse click offset which make connecting of ports very difficult
 
-[II-568](https://inxiot.atlassian.net/browse/II-568) state machine manager still blinks when connected
+[II-601](https://inxiot.atlassian.net/browse/II-601) LVGL : keyboard function block do not work in TSA app
 
-[II-569](https://inxiot.atlassian.net/browse/II-569) output tag disappears when its input tag is removed, even when there are still some other input tags
+[II-619](https://inxiot.atlassian.net/browse/II-619) inxwaere is installed as BRIX on windows. 
 
-[II-582](https://inxiot.atlassian.net/browse/II-582) Add GUI widget titles and widgetnames \(as displayed paramter\) on Functions blocks 
+[II-625](https://inxiot.atlassian.net/browse/II-625) Instance Properties should be called Parameters in the top right box
 
-[II-583](https://inxiot.atlassian.net/browse/II-583) Gauge/dial widgets should use the background and foreground colours \(and the label should be placed at the bottom so it doesn't overlap the legends\).
+[II-627](https://inxiot.atlassian.net/browse/II-627) Still gettnig strange SODL parsing \(and crashing EHS\)
 
-[II-587](https://inxiot.atlassian.net/browse/II-587) When clicking on "Tutorial Apps" in Help menu, the file dialog points to a wrong place
+[II-630](https://inxiot.atlassian.net/browse/II-630) hello world project window is small and doesn't fill work space when opened for the first time
 
-[II-588](https://inxiot.atlassian.net/browse/II-588) Moving the LVGl gauge dynamically makes it change shape.
+[II-631](https://inxiot.atlassian.net/browse/II-631) zoom out goes too far and is easy to lose projects, either put a cap on zooming out or a way to find your project easily
 
-[II-595](https://inxiot.atlassian.net/browse/II-595) LVGL : Stability issue on Windows \(Linux too?\) eRT
+[II-632](https://inxiot.atlassian.net/browse/II-632) when zoomed out and trying to highlight blocks the pan is too sensitive and can move very quickly
 
-[II-606](https://inxiot.atlassian.net/browse/II-606)  putting "..." in a paramter breaks SODL parser \(duplicated\)
+[II-647](https://inxiot.atlassian.net/browse/II-647) curser not lined up when in tilt view
+
+[II-650](https://inxiot.atlassian.net/browse/II-650) Graph Widget doesn't change the number of points displayed when values are set in the paramters. 
+
+[II-654](https://inxiot.atlassian.net/browse/II-654) crashyness on windows
+
+[II-655](https://inxiot.atlassian.net/browse/II-655) disable app send icons in iGB - Would be nice if save could refocus Lucid \(iAB\) to prompt user to send that way.
+
+[II-658](https://inxiot.atlassian.net/browse/II-658) Change the "line spacing" label in iGB to "Font Size" or add a speific font size paramter in .gui files
+
+[II-661](https://inxiot.atlassian.net/browse/II-661) List Widget does seem to appear as a widget to edit in LGB
 
 ### Task
 
 [II-241](https://inxiot.atlassian.net/browse/II-241) Run Project on ESP32 target
 
-[II-536](https://inxiot.atlassian.net/browse/II-536) Create a manual switch to disable font transfer
+[II-506](https://inxiot.atlassian.net/browse/II-506) We also need to change the user directory for eRT from ~/.brix/ to ~/inxware/
 
-[II-540](https://inxiot.atlassian.net/browse/II-540) iCB : make sure c-code generator create consistent format of the function code
+[II-507](https://inxiot.atlassian.net/browse/II-507) Tutorials should be in the app installation directory? \(This directory is usually hidden\) Move it to Documents
 
-[II-546](https://inxiot.atlassian.net/browse/II-546) Creating gui widget and renaming them before save and open iGB removes them from gui files.
+[II-514](https://inxiot.atlassian.net/browse/II-514) abs block block type i LogReal instead of Abs
 
-[II-551](https://inxiot.atlassian.net/browse/II-551) ESP32 Initial WiFi configuration.
+[II-539](https://inxiot.atlassian.net/browse/II-539) Tidy-up inxware-tools installer
 
-[II-552](https://inxiot.atlassian.net/browse/II-552) WIdget function blocks need better labelling
+[II-553](https://inxiot.atlassian.net/browse/II-553) Review and update UI Widget HTML
 
-[II-556](https://inxiot.atlassian.net/browse/II-556) add some further paramters to LVGL
+[II-557](https://inxiot.atlassian.net/browse/II-557) Large PNGs make EHS crash. Possibly off-screen possibly just too large.
 
-[II-558](https://inxiot.atlassian.net/browse/II-558) Ensure failed gui config or runtime problems don't affect other functionality \(i.e. fail parsing or crash later\)
-
-[II-560](https://inxiot.atlassian.net/browse/II-560) Make sure the gui object from Mode A are working and merge lvgl dev branch to the master
-
-[II-561](https://inxiot.atlassian.net/browse/II-561) Upgrading legacy applications function blocks
-
-[II-597](https://inxiot.atlassian.net/browse/II-597) Get TSL to work for MQTT Greengrass on both Linux and Windows
+[II-635](https://inxiot.atlassian.net/browse/II-635) The warning about needing to drag components to the  workspace  can easily be triggered when  inspecting components. Maybe add "do not show again" button
 
 ### Sub-task
 
-[II-526](https://inxiot.atlassian.net/browse/II-526) Check if MQTT green grass works on Linux
-
-[II-562](https://inxiot.atlassian.net/browse/II-562) Update TSA app to work with new function blocks
-
-[II-563](https://inxiot.atlassian.net/browse/II-563) Update Player app to work with new function blocks
-
-[II-564](https://inxiot.atlassian.net/browse/II-564) Update Home app to work with new function blocks
-
-[II-565](https://inxiot.atlassian.net/browse/II-565) Update tutorial apps to work with new function blocks part 1
-
-[II-566](https://inxiot.atlassian.net/browse/II-566) Update tutorial apps to work with new function blocks part 2
-
-[II-571](https://inxiot.atlassian.net/browse/II-571) iGB : Add rounded corners parameter widgets
-
-[II-572](https://inxiot.atlassian.net/browse/II-572) iGB :  Add 1-10 style enumeration in the widget prop parameter
-
-[II-573](https://inxiot.atlassian.net/browse/II-573) iGB : Add label on iGB widget object, which indicates widget type e.g. Button, Slider etc. 
-
-[II-574](https://inxiot.atlassian.net/browse/II-574) eRT : Update gui parser, so that it handles the new parameters
-
-[II-575](https://inxiot.atlassian.net/browse/II-575) eRT : Make a use of foreground/background colors for gauge and other lvgl ui
-
-[II-576](https://inxiot.atlassian.net/browse/II-576) eRT : Hookup lvgl widgets with new style and parameters
-
-[II-577](https://inxiot.atlassian.net/browse/II-577) Check if fixing widget rectangle colors is possible
-
-[II-578](https://inxiot.atlassian.net/browse/II-578) iGB : Add placeholder for widget parent parameter
-
-[II-579](https://inxiot.atlassian.net/browse/II-579) Update apps repo with new gui file format
-
-[II-580](https://inxiot.atlassian.net/browse/II-580) Hide toolbar/menubar items that are used for uploading to device
-
-[II-603](https://inxiot.atlassian.net/browse/II-603) TSL for MQTT Linux
-
-[II-604](https://inxiot.atlassian.net/browse/II-604) TSL for MQTT Windows
-
-[II-607](https://inxiot.atlassian.net/browse/II-607) Add default 'clientID' string for MQTT in order to prevent Linux lib from asserting when port isn't connected \(duplicated\)
-
-[II-612](https://inxiot.atlassian.net/browse/II-612) Investigate why we get Error: Unexpected EOF in SODL file
-
-### Story
-
-[II-245](https://inxiot.atlassian.net/browse/II-245) Can we get greengrass running on windows for MQTT?
+[II-617](https://inxiot.atlassian.net/browse/II-617) LVGL : Keyboard events aren't always working
