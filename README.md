@@ -2,6 +2,8 @@
 
 ### Bug
 
+[II-82](https://inxiot.atlassian.net/browse/II-82) Fill in the details for the Application Server doc \(System/Remote/Application Server\)
+
 [II-277](https://inxiot.atlassian.net/browse/II-277) Tags are sometimes created in a wrong position, which gets corrected when FBs are moved
 
 [II-331](https://inxiot.atlassian.net/browse/II-331) The EHS is unable to get the IP Address of WiFi network devices
@@ -11,6 +13,8 @@
 [II-492](https://inxiot.atlassian.net/browse/II-492) eRT -Issue to solve: scanf fails if some outputs are not connected. e.g. if out a is not connected \(cos we want to ignore it\) then result 2 doesn't happen either.
 
 [II-502](https://inxiot.atlassian.net/browse/II-502) Pathspec for tutorials directory required
+
+[II-517](https://inxiot.atlassian.net/browse/II-517) Windows Workspace scrolls when draging a line
 
 [II-525](https://inxiot.atlassian.net/browse/II-525) Sometimes there is a small offset on mouse and screen \(seen on Windows with external HD monitor\).
 
@@ -23,6 +27,8 @@
 [II-601](https://inxiot.atlassian.net/browse/II-601) LVGL : keyboard function block do not work in TSA app
 
 [II-619](https://inxiot.atlassian.net/browse/II-619) inxwaere is installed as BRIX on windows. 
+
+[II-621](https://inxiot.atlassian.net/browse/II-621) When FBs are dragged beyond the limits of the canvas, it can offshoot quickly, expanding the view unnecessarily
 
 [II-625](https://inxiot.atlassian.net/browse/II-625) Instance Properties should be called Parameters in the top right box
 
@@ -42,9 +48,23 @@
 
 [II-655](https://inxiot.atlassian.net/browse/II-655) disable app send icons in iGB - Would be nice if save could refocus Lucid \(iAB\) to prompt user to send that way.
 
+[II-657](https://inxiot.atlassian.net/browse/II-657) Output event from example html hasn't been removed
+
 [II-658](https://inxiot.atlassian.net/browse/II-658) Change the "line spacing" label in iGB to "Font Size" or add a speific font size paramter in .gui files
 
 [II-661](https://inxiot.atlassian.net/browse/II-661) List Widget does seem to appear as a widget to edit in LGB
+
+[II-663](https://inxiot.atlassian.net/browse/II-663) LogicAnd3 HTML file exists but isnt linked in Lucid
+
+[II-666](https://inxiot.atlassian.net/browse/II-666) Chart and spinner files not linked to lucid
+
+[II-670](https://inxiot.atlassian.net/browse/II-670) ADC paramter validiors are crazy
+
+[II-674](https://inxiot.atlassian.net/browse/II-674) Random crash on Windows when opening project. Seems to be ftgl related.
+
+[II-675](https://inxiot.atlassian.net/browse/II-675) Graphical bug in ADC component
+
+[II-681](https://inxiot.atlassian.net/browse/II-681) typo on the digit display component
 
 ### Task
 
@@ -54,6 +74,8 @@
 
 [II-507](https://inxiot.atlassian.net/browse/II-507) Tutorials should be in the app installation directory? \(This directory is usually hidden\) Move it to Documents
 
+[II-509](https://inxiot.atlassian.net/browse/II-509) cosh FB has an old format/outdated help file
+
 [II-514](https://inxiot.atlassian.net/browse/II-514) abs block block type i LogReal instead of Abs
 
 [II-539](https://inxiot.atlassian.net/browse/II-539) Tidy-up inxware-tools installer
@@ -62,7 +84,17 @@
 
 [II-557](https://inxiot.atlassian.net/browse/II-557) Large PNGs make EHS crash. Possibly off-screen possibly just too large.
 
+[II-629](https://inxiot.atlassian.net/browse/II-629) Terms "off.x" and "off.y" are confusing at first as it seems like you're turning them off. 
+
 [II-635](https://inxiot.atlassian.net/browse/II-635) The warning about needing to drag components to the  workspace  can easily be triggered when  inspecting components. Maybe add "do not show again" button
+
+[II-638](https://inxiot.atlassian.net/browse/II-638) timer/clock inconsistency, it is called 2 different things
+
+[II-645](https://inxiot.atlassian.net/browse/II-645) missing example in the manual
+
+[II-653](https://inxiot.atlassian.net/browse/II-653) BLOCK\_LOOKS:Simpe Counter FB is too large and  ports are spaces badly.
+
+[II-667](https://inxiot.atlassian.net/browse/II-667) create a RNG FB.
 
 ### Sub-task
 
