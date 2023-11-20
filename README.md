@@ -10,7 +10,8 @@ This inxware Lucid Community package is a pre-release of a new variant of the Lu
 3. General purpose programming function library
 4. IoT and embeddeded function block libraries 
 5. GUI layout authoring tool (legacy version only available currently)
-6. Device-specific runtimes include
+
+## Tagrget Hardware Support
 - Raspberry Pi 3/4
 - ESP32 (Standard & S3)
 - NXP Freedom board (K64)
