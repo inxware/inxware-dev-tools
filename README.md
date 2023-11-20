@@ -36,7 +36,7 @@ Educational institutions can provide the Lucid IDE on a per-machine licence mode
 Educational institutions are licensed for a maximum of 5 copies of the device runtime per institution.
 
 # Eductional Resources
-inx can provide IoT Cloud services, discounted licensing and technical support SLAs to eductional institutions adopting Lucid as part of their teaching and research actvities.    
+inx can provide IoT Cloud services, discounted licensing and technical support SLAs to eductional institutions adopting Lucid as part of their teaching and research actvities. Contact is to find out more [here](https://www.inxware.io/contact/)
 
 # Future Roadmap
 - Linux Desktop IDE (Currently available without LGB UIeditor)
