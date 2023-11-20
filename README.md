@@ -1,5 +1,7 @@
 # Release notes - inxware-Lucid Community Release - 2.1.8
 
+[Download the Windows 10/11 Installer here](https://github.com/inxware/inxware-dev-tools/releases/download/v-2.1.8/inxware-installer.exe)
+
 This inxware Lucid Community package is a pre-release of a new variant of the Lucid targetted for educational and personal usecases.
 
 # Current Features
@@ -34,3 +36,8 @@ Educational institutions are licensed for a maximum of 5 copies of the device ru
 
 # Eductional Resources
 inx can provide IoT Cloud services, discounted licensing and technical support SLAs to eductional institutions adopting Lucid as part of their teaching and research actvities.    
+
+# Future Roadmap
+- Linux Desktop IDE (Currently available without LGB UIeditor)
+- Integrated GUI Editor and device simular
+- Further community toolboxes for ML and cloud services.
