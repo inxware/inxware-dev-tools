@@ -1,6 +1,6 @@
 # Release notes - inxware-Lucid Community Release - 2.1.9
 
-[Download the Windows 10/11 Installer here](https://github.com/inxware/inxware-dev-tools/releases/download/v-2.1.9/inxware-installer.exe)
+[Download the Windows 10/11 Installer here](https://github.com/inxware/inxware-dev-tools/releases/download/v-2.1.9/inxware-installer-2.1.9.exe)
 
 This inxware Lucid Community package is a pre-release of a new variant of the Lucid targetted for educational and personal usecases.
 
