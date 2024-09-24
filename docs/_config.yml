@@ -4,8 +4,7 @@ show_downloads: true
 google_analytics:
 sidebar: 
 - label: Section One
-    - document-home
     children:
-      - document-one
+      - document-home
       - document-two
       - document-three
