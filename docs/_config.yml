@@ -4,8 +4,8 @@ show_downloads: true
 google_analytics:
 search_enabled: true
 sidebar:
-  - document-home 
+  - document-root
   - label: Section One
-#    children:
-#      - document-one
-#      - document-two
+    children:
+      - document-one
+      - document-two
