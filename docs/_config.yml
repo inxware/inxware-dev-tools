@@ -6,6 +6,6 @@ search_enabled: true
 sidebar:
   - document-home 
   - label: Section One
-    children:
-      - document-one
-      - document-two
+#    children:
+#      - document-one
+#      - document-two
