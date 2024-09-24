@@ -1,3 +1,5 @@
-****
+
+id: document-root
+***
 Lucid
-****
+***
