@@ -1,0 +1,14 @@
+title: inxware-lucid Community
+description: inxware-lucid is a universal no-code software development platform.
+show_downloads: true
+google_analytics:
+search_enabled: true
+#sidebar:
+#  - document-root
+#  - label: Section One
+#    children:
+#      - document-one
+#      - document-two
+sidebar:
+  title: "Sample Title"
+  nav: sidebar-sample
