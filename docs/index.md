@@ -5,6 +5,6 @@ sidebar_label: Long Title
 ---
 # Sorry still under construction!
 
-<iframe width="100%" height="100%" src="./components/index.html" title="Component Reference"></iframe>
+<iframe width="100%" height="300%" src="./components/index.html" title="Component Reference"></iframe>
 
 
